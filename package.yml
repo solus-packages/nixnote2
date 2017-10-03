@@ -1,6 +1,6 @@
 name       : nixnote2
 version    : 2.0
-release    : 1
+release    : 2
 source     :
     - https://github.com/baumgarr/nixnote2/archive/v2.0.tar.gz : 15016caf90bfe09d44fcac4fa4039756eb7efbaf8469505373577f846ee67dcc
 license    : GPL-2.0
