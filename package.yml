@@ -1,6 +1,6 @@
 name       : nixnote2
 version    : 2.0
-release    : 3
+release    : 4
 source     :
     - https://github.com/baumgarr/nixnote2/archive/v2.0.tar.gz : 15016caf90bfe09d44fcac4fa4039756eb7efbaf8469505373577f846ee67dcc
 license    : GPL-2.0
@@ -9,11 +9,12 @@ summary    : An unofficial client of Evernote for Linux.
 description: |
     An unofficial client of Evernote for Linux.
 builddeps  :
-    - pkgconfig(Qt5WebKit)
     - pkgconfig(gl)
     - pkgconfig(hunspell)
     - pkgconfig(libcurl)
     - pkgconfig(poppler-qt5)
+    - pkgconfig(Qt5Core)
+    - pkgconfig(Qt5WebKit)
     - libboost-devel
 rundeps    :
     - tidy-html5
