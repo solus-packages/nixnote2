@@ -2,8 +2,8 @@
     <Source>
         <Name>nixnote2</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>GPL-2.0</License>
         <PartOf>office.notes</PartOf>
@@ -19,18 +19,197 @@
 </Description>
         <PartOf>office.notes</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/nixnote2</Path>
             <Path fileType="data">/usr/share/applications/nixnote2.desktop</Path>
-            <Path fileType="data">/usr/share/nixnote2</Path>
+            <Path fileType="data">/usr/share/nixnote2/help/UserDocumentation.odt</Path>
+            <Path fileType="data">/usr/share/nixnote2/help/UserDocumentation.pdf</Path>
+            <Path fileType="data">/usr/share/nixnote2/help/about.html</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/alarmclock.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/attribute.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/black_dot.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/bold.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/bulletList.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/classic-theme/home.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/classic-theme/left_arrow.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/classic-theme/notebook-green.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/classic-theme/right_arrow.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/classic-theme/stack-green.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/classic-theme/synchronize.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/classic-theme/windowIcon.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/collapsed.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/copy.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/cut.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/datetime.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/delete.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/down_arrow_small.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/emailIcon.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/encrypt.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/eraser.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/expanded.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/favorites.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/fileclose.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/fontColor.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/fontHilight.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/gps.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/grid.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/hline.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/home.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/htmlentities.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/indent.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/italic.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/justifyCenter.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/justifyLeft.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/justifyRight.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/left_arrow.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/lens.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/link.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/linked-notebook.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/local-notebook.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/alarmclock.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/attribute.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/black_dot.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/bold.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/bulletList.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/collapsed.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/copy.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/cut.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/datetime.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/delete.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/down_arrow_small.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/emailIcon.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/encrypt.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/eraser.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/expanded.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/favorites.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/fileclose.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/fontColor.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/fontHilight.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/gps.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/grid.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/hline.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/home.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/htmlentities.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/indent.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/italic.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/justifyCenter.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/justifyLeft.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/justifyRight.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/left_arrow.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/lens.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/link.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/linked-notebook.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/local-notebook.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/navigation.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/newNote.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/notebook-conflict.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/notebookSmall.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/notebook_old.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/numberList.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/outdent.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/password.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/paste.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/printer.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/public-notebook.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/redo.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/right_arrow.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/screenCapture.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/silhouette.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/spellCheck.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/splash_logo.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/stack.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/strikethrough.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/subscript.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/superscript.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/synchronize.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/tag.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/themeInfo.html</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/todo.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/trash.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/trayicon.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/tree-down.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/trunk.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/underline.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/undo.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/up_arrow_small.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/usage.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/webcam.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/material-light/windowIcon.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/navigation.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/newNote.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/notebook-conflict.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/notebookSmall.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/notebook_old.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/numberList.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/outdent.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/password.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/paste.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/printer.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/public-notebook.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/purple-theme/home.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/purple-theme/left_arrow.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/purple-theme/notebook.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/purple-theme/purpleThemeInfo.html</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/purple-theme/right_arrow.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/purple-theme/stack-purple.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/purple-theme/synchronize.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/purple-theme/windowIcon1.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/purple-theme/windowIcon2.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/purple-theme/windowIcon3.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/purple-theme/windowIcon4.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/purple-theme/windowIcon5.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/redo.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/right_arrow.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/screenCapture.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/silhouette.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/spellCheck.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/splash_logo.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/stack.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/strikethrough.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/subscript.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/superscript.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/synchronize.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/tag.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/themeInfo.html</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/todo.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/trash.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/trayicon.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/tree-down.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/trunk.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/underline.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/undo.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/up_arrow_small.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/usage.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/webcam.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/images/windowIcon.png</Path>
+            <Path fileType="data">/usr/share/nixnote2/java/crypto.jar</Path>
+            <Path fileType="data">/usr/share/nixnote2/java/src/cx/fbn/encrypt/Base64.java</Path>
+            <Path fileType="data">/usr/share/nixnote2/java/src/cx/fbn/encrypt/Crypto.java</Path>
+            <Path fileType="data">/usr/share/nixnote2/java/src/cx/fbn/encrypt/EnCrypt.java</Path>
+            <Path fileType="data">/usr/share/nixnote2/qss/editor.css</Path>
+            <Path fileType="data">/usr/share/nixnote2/qss/editor_dark.css</Path>
+            <Path fileType="data">/usr/share/nixnote2/translations/README</Path>
+            <Path fileType="data">/usr/share/nixnote2/translations/nixnote2_ca.ts</Path>
+            <Path fileType="data">/usr/share/nixnote2/translations/nixnote2_cs_CZ.ts</Path>
+            <Path fileType="data">/usr/share/nixnote2/translations/nixnote2_da.ts</Path>
+            <Path fileType="data">/usr/share/nixnote2/translations/nixnote2_de.ts</Path>
+            <Path fileType="data">/usr/share/nixnote2/translations/nixnote2_es.ts</Path>
+            <Path fileType="data">/usr/share/nixnote2/translations/nixnote2_fr.ts</Path>
+            <Path fileType="data">/usr/share/nixnote2/translations/nixnote2_ja.ts</Path>
+            <Path fileType="data">/usr/share/nixnote2/translations/nixnote2_pl.ts</Path>
+            <Path fileType="data">/usr/share/nixnote2/translations/nixnote2_pt.ts</Path>
+            <Path fileType="data">/usr/share/nixnote2/translations/nixnote2_ru.ts</Path>
+            <Path fileType="data">/usr/share/nixnote2/translations/nixnote2_sk.ts</Path>
+            <Path fileType="data">/usr/share/nixnote2/translations/nixnote2_zh_CN.ts</Path>
+            <Path fileType="data">/usr/share/nixnote2/translations/nixnote2_zh_TW.ts</Path>
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2018-03-23</Date>
+        <Update release="5">
+            <Date>2018-10-14</Date>
             <Version>2.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
